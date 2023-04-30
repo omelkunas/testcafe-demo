@@ -5,6 +5,7 @@ import RegisterPage from "../pages/RegisterPage"
 import CustomerPage from "../pages/CustomerPage"
 
 const URL = 'https://demo.nopcommerce.com/'
+
 const homePage = new HomePage()
 const registerPage = new RegisterPage()
 const loginPage = new LoginPage()

@@ -6,7 +6,7 @@ export default class HomePage {
     this.registerLink = Selector('a').withText('Register')
     this.loginLink = Selector('a').withText('Log in')
     this.logoutLink = Selector('a').withText('Log out')
-    this.shoppingCartLink = Selector('a').withText('Shopping Cart')
+    this.shoppingCartLink = Selector('a').withText('Shopping cart')
     this.myAccountLink = Selector('a').withText('My account')
     this.currencyList = Selector('select#customerCurrency')
   }
@@ -18,7 +18,6 @@ export default class HomePage {
   async search(product) {
     await t
       .typeText(this.productSearch, product)
-      .wait(3000)
       .pressKey('enter')
   }
 
