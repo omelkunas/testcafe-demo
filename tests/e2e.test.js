@@ -31,7 +31,7 @@ fixture `E2E Fixture`
     .expect(homePage.subtitleHeader.exists).ok()
 })
 
-test.only("Place Order E2E Tests", async (t) => {
+test("Place Order E2E Tests", async (t) => {
     await t
     .maximizeWindow()
     .click(homePage.registerLink)
