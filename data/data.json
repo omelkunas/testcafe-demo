@@ -1,0 +1,20 @@
+[
+  {
+    "firstname": "John",
+    "lastname": "Doe",
+    "dobDay": "5",
+    "dobMonth": "May",
+    "dobYear": "1987",
+    "email": "test",
+    "password": "123456"
+  },
+  {
+    "firstname": "James",
+    "lastname": "Bond",
+    "dobDay": "15",
+    "dobMonth": "April",
+    "dobYear": "1967",
+    "email": "test1",
+    "password": "007007"
+  }
+]
