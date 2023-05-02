@@ -1,0 +1,15 @@
+name: TestCafe workflow
+on: [push]
+
+jobs:
+  build:
+    name: run TestCafe Tests
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install TestCafe from 'npm' and Run Tests
+    - uses: DevExpress/testcafe-action@latest
+      with:
+        args: "chrome tests"
+    
