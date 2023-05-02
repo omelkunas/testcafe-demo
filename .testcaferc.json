@@ -1,7 +1,7 @@
 {
   "browsers": "chrome:headless",
   "src": "tests",
-  "reporter": "allure",
+  "reporter": ["list", "allure"],
   "screenshots": {
       "path": "screenshots",
       "takeOnFails": true,
