@@ -27,7 +27,6 @@ fixture `E2E Fixture`
   test('Assert home page', async t => {
     await t
     .expect(getURL()).eql(URL)
-    .takeScreenshot()
     .expect(homePage.subtitleHeader.exists).ok()
 })
 
