@@ -1,11 +1,11 @@
 {
-  "browsers": "chrome",
+  "browsers": "chrome:headless",
   "src": "tests",
-  "reporter": "list",
+  "reporter": "allure",
   "screenshots": {
       "path": "screenshots",
       "takeOnFails": true,
       "fullPage": true
   },
-  "concurrency": 1
+  "concurrency": 2
 }

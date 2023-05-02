@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx testcafe"
+    "test": "npx testcafe",
+    "allure": "npx allure generate allure/allure-results --clean -o allure/allure-report; npx allure open allure/allure-report",
+    "allure:generate": "npx allure generate allure/allure-results --clean -o allure/allure-report",
+    "allure:open": "npx allure open allure/allure-report"
   },
   "author": "Oleg Melkunas",
   "license": "ISC",
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
-    "testcafe": "^2.5.1-rc.1"
+    "testcafe": "^2.5.1-rc.1",
+    "testcafe-reporter-allure": "^1.0.5",
+    "testcafe-reporter-html": "^1.4.6"
   }
 }
