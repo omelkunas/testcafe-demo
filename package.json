@@ -7,7 +7,8 @@
     "test": "npx testcafe",
     "allure": "npx allure generate allure/allure-results --clean -o allure/allure-report; npx allure open allure/allure-report",
     "allure:generate": "npx allure generate allure/allure-results --clean -o allure/allure-report",
-    "allure:open": "npx allure open allure/allure-report"
+    "allure:open": "npx allure open allure/allure-report",
+    "docker": "docker run -v $pwd/tests:/tests -it testcafe/testcafe firefox /tests"
   },
   "author": "Oleg Melkunas",
   "license": "ISC",
